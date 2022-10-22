@@ -10,7 +10,7 @@
   <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet" />
 
   <!-- link your styles -->
-  <link rel="stylesheet" href="./stylesheets/style.css" />
+  <link rel="stylesheet" href="./styles.css" />
 
   <link rel="icon" type="image/x-icon" href="./images/slack-icon.png">
   <title>Slack is your digital HQ | Slack</title>
@@ -18,10 +18,10 @@
 
 <body>
   <nav>
-    <div>
-      <img src="./images/slack-logo.png" alt="Slack logo" />
+    <div class="flex">
+      <img src="./images/slack-logo.png" alt="Slack logo" class="logo"/>
       
-      <ul>
+      <ul class="menu">
         <li>
           <a href="#">Product</a>
         </li>
@@ -37,16 +37,16 @@
       </ul>
     </div>
 
-    <div>
+    <div class="flex">
       <button>
-        <img src="./images/icon-search.png" alt="Search icon">
+        <img src="./images/simbolo-de-la-interfaz-de-busqueda.png" alt="Search icon">
       </button>
 
       <button>
-        <img src="./images/icon-menu.png" alt="Menu icon">
+        <img src="./images/menu.png" alt="Menu icon">
       </button>
 
-      <ul hidden>
+      <ul class="menu">
         <li>
           <a href="#">Sign in</a>
         </li>
@@ -57,25 +57,26 @@
     </div>
   </nav>
 
-  <header>
+  <header class="flex">
     <div>
       <h1>Great teamwork starts with a digital HQ</h1>
 
-      <p>Slack is free to try for as long as you'd like.</p>
-
-      <div>
-        <button>Sign up with email</button>
+      <p style="color:#ECB12F;"> Slack is free to try</p> <p style="color: #ffffff;">for as long as you'd like</p>
+      
+      <div class="flex">
+        <button class="email">Sign up with email</button>
 
         <button>
           <img src="./images/logo-google.png" alt="Google logo" />
           <span>Sign up with Google</span>
         </button>
+
       </div>
 
     </div>
 
     <div>
-      <img src="./images/hero-product-ui.png" alt="Slack app screenshot" />
+      <img src="./images/hero-product-ui.png" alt="Slack app screenshot" class="heroimg"/>
     </div>
   </header>
 
