@@ -22,6 +22,7 @@ footer links grey: #454245
     .flexrow {
         display: flex;
         flex-direction: row;
+        justify-content: center;
     }
 
     .logo {
@@ -213,7 +214,39 @@ footer links grey: #454245
     }
 
     .logo2 {
-        
+        height: 80px;
+        margin: 80px 0 30px 5%;
+    }
+
+    footer div ul li{
+        list-style: none;
+        font-size: 12px;
+        padding: 10px 10px 10px 0;
+    }
+
+    .list {
+        color: #454245;
+    }
+
+    .footer {
+        list-style: none;
+        font-size: 12px;
+        padding: 5%;
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 5%;
+        list-style: none;
+        padding: 0;
+    }
+
+    .copy {
+        color:#454245;
+        margin: 5%;
+        font-size: 12px;
     }
 }
 
